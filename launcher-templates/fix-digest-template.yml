@@ -1,0 +1,6 @@
+hooks:
+  after_code:
+    - replace:
+        filename: "/var/www/discourse/app/views/user_notifications/digest.html.erb"
+        from: 'digest_custom_html("above_footer") '
+        to: 'digest_custom_html("above_footer").html_safe '

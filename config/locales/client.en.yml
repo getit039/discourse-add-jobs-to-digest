@@ -1,0 +1,16 @@
+en:
+  admin_js:
+    admin:
+      site_settings:
+        categories:
+          discourse_add_jobs_to_digest: "Discourse Add Jobs To Digest"
+  js:
+    discourse_add_jobs_to_digest:
+      title: "Job Recommendations"
+      no_jobs_title: "Job Recommendations"
+      no_jobs_description: |
+        No job recommendations available for your location.
+        See <a href='%{job_site_url}' target="_blank">%{job_site_name}</a> for more job opportunities.
+      job_link_button: "View Job"
+      location: "Location"
+      job_post_date: "Posted on"

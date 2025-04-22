@@ -1,0 +1,22 @@
+discourse_add_jobs_to_digest:
+  discourse_add_jobs_to_digest_enabled:
+    default: false
+    client: true
+  job_api_url:
+    default: "https://api.gethoteljobs.com/site/v1/search"
+    client: true
+  job_api_debug:
+    default: false
+    client: true
+  job_search_term:
+    default: "query=manager"
+    client: true
+  job_utm_parameters:
+    default: "utm_source=discourse&utm_medium=email&utm_campaign=job_recommendations&radius=100mi&page_size=5&"
+    client: true
+  job_site_url:
+    default: "https://www.getTheBestJobs.com/"
+    client: true
+  job_site_name:
+    default: "Our Job Site"
+    client: true
