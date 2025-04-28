@@ -26,8 +26,7 @@ after_initialize do
   module ::UserNotificationsHelperOverride
     def digest_custom_html(position_key)
       if position_key == "above_footer"
-        # Custom HTML for the popular topics position
-        DiscourseAddJobsToDigest::JobApi.get_jobs_html(@user)
+        DiscourseAddJobsToDigest::JobApi.get_jobs_html(@user).html_safe
       else
         super
       end
@@ -38,7 +37,6 @@ after_initialize do
 
   module ::UserNotificationsOverride
     def digest(user, opts = {})
-      # Custom logic for the digest
       @user = user
       super
     end
