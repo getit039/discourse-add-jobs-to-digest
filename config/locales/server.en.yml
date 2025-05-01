@@ -1,1 +1,9 @@
 en:
+  site_settings:
+    discourse_add_jobs_to_digest_enabled: "Enable or disable the plugin."
+    job_api_url: "The API URL to fetch job recommendations from (include /site/v1/search)"
+    job_api_debug: "If enabled, API URLs are logged to /logs/."
+    job_search_term: "added to the API URL--can be anything"
+    job_utm_parameters: "added to the API URL--can be anything"
+    job_site_url: "URL to link to if no jobs are found."
+    job_site_name: "The name of the site to link to if no jobs are found."
